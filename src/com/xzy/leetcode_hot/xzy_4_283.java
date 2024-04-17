@@ -1,6 +1,4 @@
-package com.xzy.leetcode;
-
-import java.util.Arrays;
+package com.xzy.leetcode_hot;
 
 public class xzy_4_283 {
     public static void main(String[] args) {

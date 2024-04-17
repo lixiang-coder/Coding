@@ -1,4 +1,4 @@
-package com.xzy.leetcode;
+package com.xzy.leetcode_hot;
 
 import java.util.Arrays;
 import java.util.HashSet;

@@ -1,4 +1,4 @@
-package com.xzy.leetcode;
+package com.xzy.leetcode_hot;
 
 public class xzy_5_11 {
     public static void main(String[] args) {

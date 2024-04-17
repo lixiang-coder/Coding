@@ -1,4 +1,4 @@
-package com.xzy.leetcode;
+package com.xzy.leetcode_hot;
 
 import java.util.*;
 
@@ -67,7 +67,7 @@ public class xzy_6_15 {
             int left = i + 1;
             int right = nums.length - 1;
 
-            // 不能相等，如果相等这就只剩下两个数字了，不满足三元组
+
             while (right > left) {
                 int sum = nums[i] + nums[left] + nums[right];
 
