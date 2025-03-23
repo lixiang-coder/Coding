@@ -19,11 +19,10 @@ public class xzy_2_49 {
 
             //从map中获取键为sortedstr的列表，如果不存在，则创建一个新的集合
             //如果存在，则list被赋值为value = map.getKey(sortedstr)
-            List<String> list = map.getOrDefault(sortedstr,new ArrayList<>());
+            List<String> list = map.getOrDefault(sortedstr, new ArrayList<>());
             list.add(str);
-            map.put(sortedstr,list);
+            map.put(sortedstr, list);
         }
         return new ArrayList<>(map.values());
     }
-
 }

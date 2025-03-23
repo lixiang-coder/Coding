@@ -4,14 +4,14 @@ import java.util.Arrays;
 
 public class xzy_1_1 {
     public static void main(String[] args) {
-        int[] arr = {3,3};
+        int[] arr = {3, 3};
         int num = 6;
-        int[] ints = twoSum(arr, num);
+        int[] ints = twoSum1(arr, num);
         System.out.println(Arrays.toString(ints));
     }
 
     //双指针
-    public static int[] twoSum(int[] nums, int target) {
+    public static int[] twoSum1(int[] nums, int target) {
         int[] res = new int[2];
 
         //快指针
