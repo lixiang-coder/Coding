@@ -11,12 +11,15 @@ public class Test2 {
     }
 
 
+    /**
+     * 力扣 541
+     * https://leetcode.cn/problems/reverse-string-ii/description/
+     *
+     * @param s
+     * @param k
+     * @return
+     */
     public static String reverseStr(String s, int k) {
-        // 剪枝
-        /*if (s.length() < k) {
-            return s;
-        }*/
-
         char[] charArray = s.toCharArray();
 
         // 每次截取2k个，反转k个
